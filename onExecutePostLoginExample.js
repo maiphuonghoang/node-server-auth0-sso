@@ -5,10 +5,10 @@
  */
 const axios = require('axios')
 
-const RENDER_API_ENDPOINT = '{your-render-api-endpoint}'
-const AUTH0_CLIENT_ID = '{your-client-id}'
-const AUTH0_CLIENT_SECRET = '{your-client-secret}'
-const AUTH0_DOMAIN = '{your-auth0-domain}'
+const RENDER_API_ENDPOINT = 'https://node-server-auth0-sso-dgt0.onrender.com'//'{your-render-api-endpoint}'
+const AUTH0_CLIENT_ID = ''// '{your-client-id}'
+const AUTH0_CLIENT_SECRET = ''// '{your-client-secret}'
+const AUTH0_DOMAIN = 'dev-u6qb885iaroc1bku.us.auth0.com'//'{your-auth0-domain}'
 
 exports.onExecutePostLogin = async (event, api) => {
   // console.log('event.secrets: ', event.secrets)
